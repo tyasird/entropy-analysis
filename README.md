@@ -1,6 +1,6 @@
 # Differential Interactome & Network Entropy Analysis
 
-This repository provides tools to fetch ovarian cancer gene expression datasets, perform quality control and normalization checks, and apply entropy‑based network/interactome analyses to prioritize candidate biomarkers.
+This repository provides tools to fetch Pancreatic adenocarcinoma cancer gene expression datasets, perform quality control and normalization checks, and apply entropy‑based network/interactome analyses to prioritize candidate biomarkers.
 
 ## Table of Contents
 
@@ -30,7 +30,7 @@ Changes in network or expression heterogeneity between conditions (e.g. tumor vs
 | File / Folder         | Purpose |
 |------------------------|---------|
 | `fetch_NCBI.R`          | Script to download GEO / NCBI datasets (expression & metadata) |
-| `fetch_TCGA.R`          | Script to fetch and process TCGA ovarian cancer (OV) data |
+| `fetch_TCGA.R`          | Script to fetch and process TCGA Pancreatic adenocarcinoma data |
 | `functions.py`          | Core Python utilities: I/O, graph construction, entropy calculations, plotting |
 | `norm_check.py`         | Perform QC and normalization diagnostics on expression data |
 | `yeni_alg.py`           | Main driver for entropy / differential interactome analysis |
@@ -86,7 +86,7 @@ This should produce expression and metadata files under `data/NCBI/`.
 Rscript fetch_TCGA.R --project TCGA-OV --datatype HTSeq --outdir data/TCGA
 ```
 
-This will download expression and clinical data for ovarian cancer, process them, and save them under `data/TCGA/`.
+This will download expression and clinical data for Pancreatic adenocarcinoma, process them, and save them under `data/TCGA/`.
 
 ---
 
