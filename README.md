@@ -185,5 +185,6 @@ Add a `LICENSE` file if publishing (e.g. MIT). Cite this repo in publications if
 
 ## Contact
 
-Author: Yasir ([@tyasird](https://github.com/tyasird))  
+Author: Talip Yasir Demirtas ([@tyasird](https://github.com/tyasird))  
+
 Please open GitHub Issues for bugs or feature requests.
